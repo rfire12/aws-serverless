@@ -1,7 +1,7 @@
 {
-  "name": "your-project-name",
+  "name": "serverless-aws",
   "version": "1.0.0",
-  "description": "A react base project",
+  "description": "Serverless homework",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --content-base src --hot --inline",
@@ -14,9 +14,6 @@
   },
   "author": "Raul Paulino",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rfire12/react-base-project/issues"
-  },
   "homepage": "",
   "dependencies": {
     "react": "^16.11.0",
