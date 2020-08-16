@@ -15,7 +15,7 @@ npm : 6.14.5
 ### Pasos para correr:
 1) `$ npm install`
 
-2) `$ npm run dev`
+2) `$ npm start`
 
 3) Ir a http://localhost:8080 para observar los registros
 
