@@ -1,5 +1,7 @@
 const path = require("path"); // Manipulates filepaths
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const webpack = require('webpack')
+var dotenv = require('dotenv').config({path: __dirname + '/.env'});
 
 module.exports = {
   entry: "./src/index.jsx",
@@ -33,6 +35,12 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/index.html"
-    })
-  ]
+    }),
+    new webpack.DefinePlugin({
+      "process.env": JSON.stringify(dotenv.parsed)
+  }),
+  ],
+  devServer: {
+    historyApiFallback: true
+  },
 };

@@ -1,0 +1,32 @@
+
+
+.container {
+    margin: 50px auto;
+    width: 50% !important;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-header-title { 
+    font-weight: bold !important;
+}
+
+.create {
+    margin-bottom: 10px !important;
+}
+
+.lab-field {
+    margin-left: 10px !important;
+    margin-bottom: 15px !important;
+}
+
+.date-field {
+    margin-left: 10px !important;
+}
+
+.create-form-button {
+    margin-left: 10px !important;
+}
+
